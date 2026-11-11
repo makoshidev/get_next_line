@@ -6,10 +6,9 @@
 /*   By: mshikhov <mshikhov@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/12 04:32:18 by mshikhov          #+#    #+#             */
-/*   Updated: 2026/11/11 03:48:17 by mshikhov         ###   ########.fr       */
+/*   Updated: 2026/11/11 19:22:07 by mshikhov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "get_next_line.h"
 
