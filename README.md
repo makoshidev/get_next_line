@@ -9,7 +9,7 @@
 The project is compiled along with source code or a main test file using `cc` with the `-D BUFFER_SIZE=n` flag:
 
 ```bash
-cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c main.c -o gnl
+cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c -o gnl
 ```
 
 If `BUFFER_SIZE` is not specified during compilation, the default value defined in `get_next_line.h` (`42`) is used.
@@ -51,5 +51,4 @@ The implementation relies on a single static string pointer (`remainder`) to ret
 ### AI Usage
 AI was used during the refactoring and debugging phase:
 - Code review to detect subtle edge-case memory leaks and buffer boundaries in `get_return`.
-- Assisting in debugging development environment issues (system library symbol redirects on Linux).
 - Structuring this documentation in compliance with the 42 subject requirements.
